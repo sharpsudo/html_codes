@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+</head>
+<body>
+    <h2>THIS PAGE IS FOR FORMS</h2>
+<FORM action=backend.php>  
+    <div>
+        NAME: <input type="text" name= "myname">
+
+    </div>
+    <br>
+     <div>
+        ROLL: <input type="number" name= "myroll">
+
+    </div>
+    <br>
+    <div>
+        DATE: <input type="date">
+    </div>
+    <br>
+    <div>
+        GENDER: MALE<input type="radio" name="mygender" checked >
+        FEMALE<input type="radio" name="mygender" >
+        OTHERS<input type="radio" name="mygender" >
+    </div>
+    <br>
+    <div>
+        EVERYTHING LOOKS GOOD? <input type="submit" value="submit now">
+    </div>
+    <br>
+    <div>
+        write about yourself: 
+        <br>
+        <textarea name="mybio" id="" cols="30" rows="10"></textarea>
+    </div>
+    
+</FORM>
+    
+</body>
+</html>
